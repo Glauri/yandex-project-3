@@ -2,7 +2,6 @@
   width: 29px;
   height: 28px;
   margin-right: 20px;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -13,6 +12,13 @@
   transition: opacity 0.2;
 }
 
-.header__lang-link:hover{
+.header__lang-linke:hover{
     opacity: 0.5;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }

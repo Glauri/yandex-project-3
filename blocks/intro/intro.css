@@ -5,18 +5,11 @@
 @import url('./__list-item/intro__list-item.css');
 
 .intro{
-    max-width: 690px;
-    height: 568px;
-    margin-left: 148px;
-    top: 1233px;
-}
-
-
-/*.intro {
+    
   margin-left: calc((100% - 984px) / 2);
   margin-top: 92px;
   max-width: 690px;
-}*/
+}
 
 @media screen and (max-width: 1024px) {
   .intro {
@@ -30,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
   .intro {
     margin: 64px auto 0;
   }

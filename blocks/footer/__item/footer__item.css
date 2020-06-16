@@ -1,4 +1,5 @@
 .footer__item {
+    margin-right: 18px;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
@@ -7,12 +8,12 @@
     color: #ffffff;
     transition: opacity 0.3s;
   }
-  .footer__link:hover {
+  .footer__item:hover {
     opacity: 0.5;
   }
   
   @media screen and (max-width: 425px) {
-    .footer__link {
+    .footer__item {
       font-size: 24px;
       line-height: 24px;
     }

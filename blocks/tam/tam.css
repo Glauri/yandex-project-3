@@ -4,3 +4,10 @@
 .tam {
     width: 100%;
   }
+
+  @media screen and (max-width: 1024px) {
+    .tam {
+      max-width: 928px;
+    }
+  }
+  

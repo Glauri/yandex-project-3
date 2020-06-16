@@ -4,20 +4,12 @@
 @import url('./__subtitle/lead__subtitle.css');
 
 .lead{
-    width: 984px;
-    height: 1005px;
-    margin-left: 148px;
-    margin-top: 58px;
+    width: 100%;
+    margin-top: 58px auto 0;
     
 }
 
 
-@media screen and (max-width: 900px) {
-  .lead {
-    width: 80%;
-    margin-right: 50px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .lead {

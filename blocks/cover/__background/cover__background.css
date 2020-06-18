@@ -11,23 +11,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+  }
+
+  .cover__background:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    z-index: -1;
+    transition-duration: .5s;
   }
   
-  
   @media screen and (max-width: 1024px) {
-    .cover__item {
+    .cover__background{
       min-height: 640px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .cover__item {
+    .cover__background {
       min-height: 480px;
     }
   }
   
   @media screen and (max-width: 425px) {
-    .cover__item {
+    .cover__background {
       min-height: 200px;
     }
   }

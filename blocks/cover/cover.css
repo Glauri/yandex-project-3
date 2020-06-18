@@ -3,14 +3,12 @@
 @import url("./__title/cover__title.css");
 
 .cover {
-  max-width:90%;
+  max-width:100%;
   margin: 92px auto 0;
-  display: flex;
-  left: 48px;
   
 }
 
-.cover:hover .cover__item::before {
+.cover:hover .cover__background:before {
   opacity: 0.8;
 }
 

@@ -7,7 +7,7 @@
 .footer {
     margin: 92px auto 0;
     padding-bottom: 24px;
-    max-width: 90%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
 }

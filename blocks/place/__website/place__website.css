@@ -1,11 +1,8 @@
 @import url('./__link/place__website__link.css');
-@import url('./__link/place__website__link-maine.css');
 @import url('./__url-heading/place__wbesite__url-heading.css');
-@import url('./__url-heading/place__website__url-heading-maine.css');
 
 
 .place__website{
-  width: 100%;
   height: 46px;
   left: 648px;
   top: 2686px;

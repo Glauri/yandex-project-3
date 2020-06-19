@@ -1,0 +1,23 @@
+.sector{
+    width: 100%;
+    max-width: 984px;
+    margin: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+  .sector{
+        width: 100%;
+        max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 350px){
+    .section{
+        width: 100%;
+        max-width: 280px;
+    }
+}

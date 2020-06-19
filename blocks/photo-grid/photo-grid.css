@@ -3,7 +3,7 @@
 @import url("./__item-item/photo-grid__item-item.css");
 
 .photo-grid{
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   
 }

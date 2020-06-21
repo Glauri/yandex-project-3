@@ -1,9 +1,11 @@
-@import url("./__items/photo-grid__items.css");
-@import url("./__items-item/photo-grid__items-item.css");
-@import url("./__item-item/photo-grid__item-item.css");
+@import url('./__item/photo-grid__item.css');
+@import url('./__items/photo-grid__items.css');
+@import url('./__lista/photo-grid__lista.css');
+
+
 
 .photo-grid{
-  width: 100%;
-  margin: auto;
-  
+    
+width: 100%;
+
 }

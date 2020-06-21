@@ -14,7 +14,7 @@
     position: relative;
   }
 
-  .cover__background:before {
+  .cover__background::before {
     content: "";
     height: 100%;
     width: 100%;

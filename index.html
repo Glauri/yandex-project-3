@@ -16,7 +16,7 @@
         <img class="logo" src="./images/header-logo.svg" alt="little picture of USA">
         <ul class="header__lang-links"> 
           <li class="header__lang-link"> 
-            <a class="header__lang-linke" href="#">En</a></li>
+            <a class="header__lang-linke header__lang-linke-active" href="#">En</a></li>
           <li class="header__lang-link">
             <a class="header__lang-linke" href="#">Es</a></li>
         </ul>
@@ -24,11 +24,13 @@
 
   <main class="sector">
 
-    <section class="lead ">
+    <section class="lead">
       <h1 class="lead__title">From Portland to Portland</h1>
       <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-      <img class="lead__image" src="images/lead-mountains.jpg" alt="mountains in black">
-      <h2 class="lead__caption">Your journey starts here</h2>
+      <figure>
+        <img class="lead__image" src="images/lead-mountains.jpg" alt="mountains in black">
+        <figcaption class="lead__caption">Your journey starts here</figcaption>
+      </figure>
     </section>
     
     <section class="intro">
@@ -43,38 +45,38 @@
         Africa, and even stopping by famous author Stephen King's house to say hi and asking him to 
         sign your favorite book.</p>
       <ul class="intro__list">
-        <li class="intro__list-item">Distance (miles) 3,644</li>
-        <li class="intro__list-item">Travel time (days) 22</li>
-        <li class="intro__list-item">Highest point (feet) 9,613</li>
-        <li class="intro__list-item">Lowest point (feet) -3</li>
+        <li class="intro__list-item"><span class="intro__list-item-bold">Distance (miles) </span> 3,644</li>
+        <li class="intro__list-item"><span class="intro__list-item-bold">Travel time (days)</span> 22</li>
+        <li class="intro__list-item"><span class="intro__list-item-bold">Highest point (feet)</span> 9,613</li>
+        <li class="intro__list-item"><span class="intro__list-item-bold">Lowest point (feet)</span> -3</li>
       </ul>  
     </section>
-        
+
     <section class="photo-grid">
-      <ul class="photo-grid__items">
-        <li class="photo-grid__items-item"><img src="images/photo-grid-highway.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-lake.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-seagulls.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-boise.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-fog.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-valley.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-pass.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-twig.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-clouds.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-oasis.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-wires.jpg" class="photo-grid__item-item"></li>
-        <li class="photo-grid__items-item"><img src="images/photo-grid-road.jpg" class="photo-grid__item-item"></li>
+      <ul class="photo-grid__lista">
+        <li class="photo-grid__items"><img src="images/photo-grid-highway.jpg" class="photo-grid__item" alt="empty double road"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-lake.jpg" class="photo-grid__item" alt="lake mirroring the sky"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-seagulls.jpg" class="photo-grid__item" alt="many herons, some going up to the sky"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-boise.jpg" class="photo-grid__item" alt="mountain among trees"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-fog.jpg" class="photo-grid__item" alt="mist covers pine trees on the shores of a lake that reflects them"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-valley.jpg" class="photo-grid__item" alt="mountains of different heights"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-pass.jpg" class="photo-grid__item" alt="view of mountains from a top"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-twig.jpg" class="photo-grid__item" alt="branch with pink flowers"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-clouds.jpg" class="photo-grid__item" alt="green mountains seen from the top"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-oasis.jpg" class="photo-grid__item" alt="mountains of sand surrounding a lake"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-wires.jpg" class="photo-grid__item" alt="little birds passed on cables"></li>
+        <li class="photo-grid__items"><img src="images/photo-grid-road.jpg" class="photo-grid__item" alt="long deserted road"></li>
       </ul>
-    </section> 
-    
+    </section>
+        
     <section class="places">
       <div class="place">
         <h2 class="place__title">Maine</h2>
         <div class="place__website">
-          <h2 class="place__website__url-heading">URL</h2>
+          <h2 class="place__url-heading">URL</h2>
           <a href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" class="place__link">global.llbean.com</a>
         </div>
-        <img class="place__image" src="images/place-maine.jpg">
+        <img class="place__image" src="images/place-maine.jpg" alt="house on a rocky mountain on the shore of a lake">
         <div class="place__text">
           <p class="place__paragraph">Still, as sparsely populated as it was in the 1600s, this
           is an extraordinary and highly underrated state full of rich history and majestic 
@@ -90,10 +92,10 @@
       <div class="place">
         <h2 class="place__title">New Hampshire</h2>
         <div class="place__website">
-          <h2 class="place__website__url-heading">URL</h2>
+          <h2 class="place__url-heading">URL</h2>
           <a href="https://www.timberland.com/timberlandpro.html" class="place__link">timberland.com</a>>
         </div>
-        <img class="place__image" src="images/place-new-hampshire.jpg">
+        <img class="place__image" src="images/place-new-hampshire.jpg" alt="long road in a valley between mountains">
         <div class="place__text">
           <p class="place__paragraph">There's no better place to lose yourself in nature than in springtime 
           New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much less 
@@ -111,10 +113,10 @@
       <div class="place">
         <h2 class="place__title">New York</h2>
         <div class="place__website">
-          <h2 class="place__website__url-heading">URL</h2>
+          <h2 class="place__url-heading">URL</h2>
           <a href="https://www.ge.com/about-us" class="place__link">ge.com</a>
         </div>
-        <img src="images/place-new-york.jpg" class="place__image">
+        <img src="images/place-new-york.jpg" class="place__image" alt="street with buildings">
         <div class="place__text">
           <p class="place__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other 
           reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls 
@@ -129,10 +131,10 @@
       <div class="place">
         <h2 class="place__title">Erie, PA</h2>
         <div class="place__website">
-          <h2 class="place__website__url-heading">URL</h2>
+          <h2 class="place__url-heading">URL</h2>
           <a href="https://www.fws.gov/refuge/erie" class="place__link">www.fws.gov</a>
         </div>
-        <img src="images/place-pennsylvania.jpg"  class="place__image">
+        <img src="images/place-pennsylvania.jpg"  class="place__image" alt="house on small waterfall">
         <div class="place__text">
           <p class="place__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be 
           from time to time, is another town worth passing through for several different reasons. While it might be most 
@@ -149,10 +151,10 @@
       <div class="place">
         <h2 class="place__title">Ohio</h2>
         <div class="place__website">
-          <h2 class="place__website__url-heading">URL</h2>
+          <h2 class="place__url-heading">URL</h2>
           <a href="https://www.cedarpoint.com" class="place__link">cedarpoint.com</a>
         </div>
-        <img src="images/place-ohio.jpg" class="place__image">
+        <img src="images/place-ohio.jpg" class="place__image" alt="wind power generator">
         <div class="place__text">
           <p class="place__paragraph">From the college capital of Columbus to the clean coastline of Cleveland,
           Ohio is a truly hidden gem. Earthquakes are surprisingly common in this particular region of North America,
@@ -176,11 +178,13 @@
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">  
-        <li class="footer__link"> <a href="https://yandex.com/maps" class="footer__item"> Maps</a></li>
-        <li class="footer__link"> <a href="https://yandex.com/weather/moscow" class="footer__item">Weather</a></li>
-        <li class="footer__link"> <a href="https://www.any.do/" class="footer__item"> Calendar</a></li>
-      </ul>
+      <nav class="menu">
+        <ul class="footer__links">
+          <li class="footer__link"><a href="https://yandex.com/maps" class="footer__item"> Maps</a></li>
+          <li class="footer__link"><a href="https://yandex.com/weather/moscow" class="footer__item">Weather</a></li>
+          <li class="footer__link"><a  href="https://www.any.do/" class="footer__item"> Calendar</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">@2020. Laura Mercado</p>
     </footer>
 

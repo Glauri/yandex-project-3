@@ -1,33 +1,4 @@
-.photo-grid__items {
+.photo-grid__items{
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
-    padding-left: 0;
-    grid-template-rows: auto;
-    justify-content: center;
-
-  }
-  
-  /*@media screen and (max-width: 1024px) {
-    .photo-grid__items{
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 14px;
-    }
-  }*/
-  
-  @media screen and (max-width: 768px) {
-    .photo-grid__items {
-      margin-top: 88px;
-      grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-      gap: 16px;
-    }
-  }
-  
-  @media screen and (max-width: 425px) {
-    .photo-grid__items {
-      margin-top: 64px;
-      grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-      gap: 12px;
-    }
-  }
+    
+}

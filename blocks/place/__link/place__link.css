@@ -4,10 +4,10 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  transition: opacity 0.3s;
+  transition: opacity .3s;
   color: #ffffff;
   text-decoration-line: underline;
 }
   .place__link:hover {
-    opacity: 0.5;
+    opacity: .5;
   }

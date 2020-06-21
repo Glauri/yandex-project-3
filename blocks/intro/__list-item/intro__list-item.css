@@ -1,4 +1,10 @@
+@import url('./__list-item-bold/intro__list-item-bold.css');
+
 .intro__list-item {
+
     font-weight: normal;
     padding: 0;
+    line-height: 18px;
+    font-family: 'Inter', Arial, sans-serif;
+
   }

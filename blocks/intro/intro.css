@@ -6,8 +6,9 @@
 
 .intro{
     
-  margin-left: calc((100% - 984px) / 2);
+  margin-left: 100px;
   margin-top: 92px;
+  width: 100%;
   max-width: 690px;
 }
 

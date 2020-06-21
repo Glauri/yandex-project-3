@@ -1,4 +1,6 @@
 .lead__title{
+    max-width: 720px;
+    width: 100%;
     padding-top: 50px;
     margin: auto;
     font-style: normal;

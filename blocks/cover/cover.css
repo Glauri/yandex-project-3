@@ -3,7 +3,7 @@
 @import url("./__title/cover__title.css");
 
 .cover {
-  max-width:100%;
+  width:100%;
   margin: 92px auto 0;
   
 }

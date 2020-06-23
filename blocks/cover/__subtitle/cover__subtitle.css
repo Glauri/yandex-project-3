@@ -7,7 +7,9 @@
     line-height: 22px;
     text-align: center;
     color: #ffffff;
-  }
+    z-index: 0;
+    
+}
   
   @media screen and (max-width: 425px) {
     .cover__subtitle {

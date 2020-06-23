@@ -1,7 +1,13 @@
+@import url('./__link/place__link.css');
+@import url('./__url-heading/place__url-heading.css');
+
 
 .place__website{
-  height: 46px;
-  left: 648px;
-  top: 2686px;
+  align-self: flex-end;
 }
 
+@media screen and (max-width: 425px) {
+  .place__website {
+    display: none;
+  }
+}

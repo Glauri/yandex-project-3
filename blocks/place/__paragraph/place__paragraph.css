@@ -1,5 +1,6 @@
 .place__paragraph{
-    
+width: 100%;
+max-width: 484px;  
 margin: 24px 0 0;
 font-style: normal;
 font-weight: normal;

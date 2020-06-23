@@ -7,4 +7,8 @@
 
 }
 
-
+@media screen and (max-width: 768px) {
+    .header__lang-links {
+      margin-right: 24px;
+    }
+  }

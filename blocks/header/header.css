@@ -6,7 +6,6 @@
 .header{
     width: 100%;
     max-width: 984px;
-    height: 44px;
     margin:auto;
     padding-top: 34px;
     display:flex;
@@ -24,12 +23,12 @@
 
 @media screen and (max-width: 320px) {
     .header {
+      width:100%;
+      max-width: 288px;
+      height: 100%;
       max-height: 36px;
-      max-width: 250px;
-      line-height: 24px;
-      font-size: 18px;
-      margin: auto;
-    }
+      padding-top: 20px;
+      }
   }
 
 

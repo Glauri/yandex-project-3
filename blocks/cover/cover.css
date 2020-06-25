@@ -9,13 +9,17 @@
   
 }
 
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    max-width: 1024px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 720px;
+    width: 100%;
     margin-top: 88px;
-    margin-left: 14px;
-    
     
   }
 }

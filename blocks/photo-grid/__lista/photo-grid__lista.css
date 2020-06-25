@@ -1,5 +1,6 @@
 .photo-grid__lista{
     padding: 0;
+    
     list-style: none;
     margin: 92px auto 0;
     display: grid;
@@ -28,6 +29,7 @@
       margin-top: 64px;
       grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
       gap: 12px;
+      
     }
   }
   

@@ -1,7 +1,8 @@
 @import url('./__lang-links/header__lang-links.css');
 @import url('./__lang-link/header__lang-link.css');
 @import url('./__lang-linke/header__lang-linke.css');
-@import url('./__lang-linke-active/header__lang-linke-active.css');
+@import url('./__lang-linke--active/header__lang-linke--active.css');
+
 
 .header{
     width: 100%;
@@ -13,6 +14,12 @@
     justify-content: space-between;
     align-items: center;
     
+}
+
+@media screen and (max-width:1024px) {
+  .header {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -5,7 +5,7 @@
     padding: 0;
   }
   
-  @media screen and (max-width: 1024px){
+  /*@media screen and (max-width: 1024px){
    .footer__links {
     margin-left: 48px;
    }
@@ -15,7 +15,7 @@
     .footer__links {
     margin-left: 24px;
    }
-  }
+  }*/
 
   @media screen and (max-width: 425px) {
     .footer__links {

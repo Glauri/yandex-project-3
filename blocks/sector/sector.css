@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 320px){
-    .section{
+    .sector{
         width: 100%;
         max-width: 320px;
     }
